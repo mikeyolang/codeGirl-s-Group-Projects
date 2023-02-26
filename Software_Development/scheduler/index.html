@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Scheduler</h1>
+    <form>
+      <label for="task">Task</label>
+      <input type="text" id="task" name="task"><br><br>
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date"><br><br>
+      <label for="time">Time</label>
+      <input type="time" id="time" name="time"><br><br>
+      <input type="button" value="Add" onclick="addTask()">
+    </form>
+    <br>
+    <h2>Task List:</h2>
+    <ul id="task-list">
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: .5s ease;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: rgb(0, 32, 0);
+  padding: 4rem 0 0 8rem;
+}
+
+form{
+    padding: .5rem 2rem;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: rgb(245, 255, 245);
+  margin: 1rem;
+}
+
+label{
+    display: block;
+    color: rgb(233, 255, 233);
+    font-size: 1.5rem;
+    margin-bottom: .3rem;
+}
+
+input[type="text"], input[type="date"], input[type="time"]{
+    background: rgb(0, 66, 0);
+    border: none;
+    outline: none;
+    color: rgb(180, 243, 180);
+    font-size: 1.2rem;
+    padding: .5rem 1.2rem;
+    border-radius: 10px;
+}
+
+input[type="text"], nput[type="date"], input[type="time"]:focus{
+    background: rgb(0, 43, 0);
+    border: none;
+    outline: none;
+    color: rgb(180, 243, 180);
+    font-size: 1.2rem;
+    padding: .5rem 1.2rem;
+    border-radius: 10px;
+}
+
+
+input[type="button"]{
+    background: rgb(109, 245, 109);
+    border: none;
+    outline: none;
+    color: rgb(0, 32, 0);
+    font-size: 1rem;
+    padding: .5rem 1.2rem;
+    border-radius: 10px;
+    transition: .5s ease;
+    margin-top: 1rem;
+}
+
+input[type="button"]:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+h2{
+    font-size: 1.5rem;
+    color: rgb(245, 255, 245);
+    margin: 2rem 0 1rem;
+
+}
+
+li{
+    font-size: 1rem;
+    color: rgb(245, 255, 245);
+    margin: 1rem;
+    list-style-type: none;
+
+}
